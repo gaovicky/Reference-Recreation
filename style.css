@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#Content {
+  background-color: #EBF0F2;
+  color: #070707;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2vmin;
+  padding-bottom: 2vmin;
+  padding-left: 1vmin;
+}
+
+#LeftBox {
+  width: 6%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#VerticalLine {
+  background-color: #343167;
+  width: 1%;
+}
+
+#RightBox {
+  width: 93%;
+  padding-left: 2vmin;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Changing the font*/
+#LeftBox, #Presale, #Boud {
+  font-family: 'Comfortaa', cursive;
+}
+
+#Date {
+  font-family: 'Orbitron', sans-serif;
+}
+
+#Title, #DJ, #The, #Melkweg, #Lijn, #Ams {
+  font-family: 'Russo One', sans-serif;
+}
+
+/*Removing the margin around the paragraph*/
+p {
+  margin: 0px;
+}
+
+/*Rotating the text on the left*/
+#LeftBox>p {
+  transform-origin: 100% 100%;
+  transform: rotate(-90deg);
+  font-size: 3vmax;
+}
+
+/*Styling the font size and spacing*/
+#Date>p {
+  letter-spacing: .3em;
+  font-size: 4.26vmax;
+}
+
+#Title>p {
+  font-size: 13.9vmax;
+}
+
+#DJ>p {
+  font-size: 12.9vmax;
+}
+
+#The>p {
+  font-size: 9.6vmax;
+}
+
+#Melkweg>p {
+  letter-spacing: -0.03em;
+  font-size: 8.8vmax;
+}
+
+#Lijn>p {
+  font-size: 3.2vmax;
+  letter-spacing: 0.03em;
+}
+
+#Melkweg>p {
+  font-size: 8.8vmax;
+}
+
+#Ams>p {
+  font-size: 3.4vmax;
+}
+
+#Presale>p {
+  font-size: 2.45vmax;
+  font-weight: 700;
+}
+
+#Boud>p {
+  font-size: 2.4vmax;
+  font-weight: 700;
+}
+
+/*Styling the line spacing, font width, and padding*/
+#Title {
+  line-height: 11em;
+  transform: scale(1, 1.05);
+}
+
+#DJ {
+  line-height: 6.3em;
+  transform: scale(1, .80);
+}
+
+#The {
+  padding-left: 1.1vmin;
+  line-height: 5.5em;
+  transform: scale(1, .70);
+}
+
+#Melkweg {
+  line-height: 6em;
+  transform: scale(1, .90);
+}
+
+#Lijn {
+  padding-left: 0.6vmin;
+  line-height: 1.5em;
+  transform: scale(1, .90);
+}
+
+#Ams {
+  padding-left: 0.6vmin;
+  line-height: 6.5em;
+  transform: scale(1, .90);
+}
+
+#Presale {
+  line-height: 2.4em;
+  transform: scale(1, 1.1);
+}
+
+#Boud {
+  line-height: 3.8em;
+  transform: scale(1, 1.1);
+}
+
+#Presale, #Boud {
+  padding-left: 0.6vmin;
+}
+
+/*Styling the Circles*/
+#Circles {
+  display: flex;
+  justify-content: space-around;
+}
+
+#dot1, #dot2, #dot3, #dot4, #dot5{
+  height:20vmin;
+  width: 20vmin;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#dot1 {
+  background-color: #AC5437;
+}
+
+#dot2 {
+  background-color: #B06C37;
+}
+
+#dot3 {
+  background-color: #343167;
+}
+
+#dot4 {
+  background-color: #66372D;
+}
+
+#dot5 {
+  background-color: #3D2F23;
+}
