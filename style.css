@@ -21,8 +21,7 @@ body {
   width: 6%;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: baseline;
 }
 
 #VerticalLine {
@@ -57,9 +56,13 @@ p {
 
 /*Rotating the text on the left*/
 #LeftBox>p {
-  transform-origin: 100% 100%;
+  transform-origin: 0% 0%;
   transform: rotate(-90deg);
   font-size: 3vmax;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 0px;
+  padding-top: 1vmax;
 }
 
 /*Styling the font size and spacing*/
@@ -99,7 +102,7 @@ p {
 }
 
 #Presale>p {
-  font-size: 2.45vmax;
+  font-size: 2.4vmax;
   font-weight: 700;
 }
 
@@ -138,12 +141,12 @@ p {
 
 #Ams {
   padding-left: 0.6vmin;
-  line-height: 6.5em;
+  line-height: 6em;
   transform: scale(1, .90);
 }
 
 #Presale {
-  line-height: 2.4em;
+  line-height: 2.2em;
   transform: scale(1, 1.1);
 }
 
